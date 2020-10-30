@@ -80,6 +80,7 @@ table {
     justify-content: center;
     align-items: center;
     font-weight: 600;
+    font-style: italic;
 }
 
 .banner p{
@@ -89,6 +90,7 @@ table {
 
 .banner h1{
     font-size: 80px;
+    font-weight: 900;
     line-height: 94px;
     margin-bottom: 32px;
 }
