@@ -1,6 +1,6 @@
 /* css reset */
 * {
-    font-family: "Roboto", sans-serif, "PingFangSC-Regular", sans-serif;
+    font-family: "Roboto", sans-serif, PingFangSC-Regular, sans-serif;
     font-weight: 500;
     box-sizing: border-box;
 }
@@ -102,6 +102,13 @@ table {
     display: flex;
     justify-content: space-around;
 }
+.link a{
+    display: block;
+}
+.link img{
+    display: block;
+}
+
 
 .about{
     text-align: center;
