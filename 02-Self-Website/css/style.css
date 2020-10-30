@@ -31,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    width: 1920px;
     font-size: 24px;
     line-height: 28px;
 }
@@ -72,9 +71,9 @@ table {
 }
 
 .banner{
-    background-image: url('https://hexschool.github.io/webLayoutTraining1st/week2/banner.png');
+    background-image: url('../images/banner.png');
     background-repeat:no-repeat;
-    background-size: 1920px 958px;
+    background-position: center;
     height: 958px;  
     display: flex;
     justify-content: center;
