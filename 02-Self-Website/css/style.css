@@ -1,6 +1,6 @@
 /* css reset */
 * {
-    font-family: "Roboto", "SF Pro Text" !important;
+    font-family: "Roboto", sans-serif, PingFangSC-Regular, sans-serif;
     box-sizing: border-box;
 }
 
