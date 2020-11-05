@@ -90,13 +90,16 @@ body {
     .menu li{
         width: 50%;
         text-align: center;
-        border-right: 1px solid #ffffff;
         border-bottom: 1px solid #ffffff;
+    }
+    .menu li:nth-child(odd){
+        border-right: 1px solid #ffffff;
     }
     .menu a{
         margin: 0;
         display: block;
-        padding: 8px 53px;
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
 }
 
