@@ -1,0 +1,151 @@
+
+.tab{
+    ul{
+        justify-content: space-around;
+        max-width: 1386px;
+        margin:0 auto;
+    }
+    li{
+        width: 462px;
+        font-weight: normal;
+        justify-content: center;
+        border:1px solid #DCDCDC;       
+         
+    }
+    li a{
+        justify-content: center;
+        width: 100%;
+        padding-top: 24px;
+        padding-bottom: 8px;
+        color: #000000;
+        border-bottom: 16px solid transparent;
+    }
+    li a:hover{
+        cursor: pointer;
+    }
+    li a p{
+        font-size: $font-size-xl;
+        line-height: 55px;
+        font-weight: bold;
+    }
+    .active{
+        border-bottom: 16px solid $red;
+    }
+}
+
+.optical-bg{
+    justify-content: space-between;
+    margin-bottom: 88px;
+    img{
+        display: block;
+        width: 49%;
+        max-height: 309px;
+    }
+}
+.category{
+    display: none;
+}
+.series-title{
+    font-size: $font-size-xl;
+    line-height: 63px;
+    font-weight: bold;
+}
+
+.series-subtitle{
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.glass-number{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.price{
+    color: $red;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 11px;
+    font-weight: bold;
+}
+
+
+
+.optical-glasses{
+    text-align: center;
+    margin-bottom: 188px;
+    .glass-text{
+        display: flex;
+        justify-content: space-between;
+    }
+    .glass-items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .glass-items li{
+        text-align: left;
+        width: 23%;
+        margin-bottom: 104px;
+    }
+
+    .block{
+        width: 24px;
+        height: 24px;
+        background-color: #5F3E2D;
+        border-radius: 4px;
+        margin-right: 8px;
+    }
+    .block:nth-child(2n){
+        background-color: #B75929;
+    }
+    .pagination{
+        margin-bottom: 156px;
+        ul{
+            display: flex;
+            justify-content: center;
+        }
+        a{ 
+            display: block;
+            font-size: 19px;
+            color:#555555;
+            line-height: 24px;
+            padding:10px 14px 10px 14px;
+            border: 1px solid #555555;
+            border-right:  none;
+        }
+        a:hover{ 
+            background-color: #F2F2F2;
+        }
+        li:first-child a,li:last-child a{
+            font-weight: bold;
+        }
+        li:last-child a{
+            border-right: 1px solid #555555;
+        }
+        .active{
+            background-color: #000000;
+            color:#FFFFFF;
+        }
+    }
+
+
+}
+
+.sun-glasses{
+    text-align: center;
+    margin-bottom: 188px;
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    ul li{
+        text-align: left;
+        width: 32%;
+        margin-bottom: 112px;
+    }
+
+}
