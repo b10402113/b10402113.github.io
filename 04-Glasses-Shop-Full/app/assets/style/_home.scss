@@ -9,7 +9,7 @@ img{
 
 body {
     line-height: 1;
-    font-size: 24px;
+    font-size: 24px;     
     line-height: 28px;
     
     font-family: "Roboto", sans-serif, PingFangSC-Regular, sans-serif;
@@ -23,7 +23,7 @@ body {
 /* container 平板 */
 @media(max-width:992px){
     .container{
-        max-width: 690px;
+        padding: 0 40px;
     }
 }
 
@@ -105,7 +105,7 @@ body {
 
 .banner{
     height: 840px;
-    background: url('../images/banner.png') no-repeat center;
+    background: url('../images/home/banner.png') no-repeat center;
     background-position: center center;
     padding-top: 350px;
     padding-right: 21.09%;
@@ -135,7 +135,7 @@ body {
 /* banner 手機 */
 @media(max-width:767px){
     .banner{
-        background:url('../images/banner-sm.png') no-repeat;
+        background:url('../images/home/banner-sm.png') no-repeat;
         background-position: left center;
         height: 394px;
         padding-top: 164px;
@@ -346,7 +346,7 @@ body {
 
 
 .joint-glasses{
-    background: url('../images/bg.png') no-repeat center;
+    background: url('../images/home/bg.png') no-repeat center;
     padding-bottom: 80px;
 }
 .joint-glasses .title{
