@@ -1,0 +1,187 @@
+/* css reset */
+* {
+    font-family: "Roboto", "SF Pro Text" !important;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: "Roboto", sans-serif, PingFangSC-Regular, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 47px;
+}
+.header .name{
+    font-size: 80px;
+    line-height: 94px;
+    padding-bottom: 17px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 48px;
+}
+
+.header .photo{
+    margin-bottom: 48px;
+}
+.profile{
+    padding-bottom: 48px;
+}
+
+.title{
+    font-size: 32px;
+    line-height: 45px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 16px;
+}
+.title span{
+    /* 重點 */
+    vertical-align: top;
+    color: #A00404;
+    font-size: 24px;
+    line-height: 45px;
+    padding-left: 16px;
+}
+.content ul{
+    margin-bottom: 24px;
+}
+.content ul li{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.education p{
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+.education .content{
+    margin-bottom: 48px;
+}
+
+.skill{
+    background-color: #415165;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    margin-bottom: 72px;
+}
+.skill .title{
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    color:white;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+
+}
+.skill .title span{
+    color: white;
+}
+.skill .skill-description{
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    width: 230px;
+    margin: 0 auto;
+    
+}
+.skill .skill-description li{
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 28px;
+    color:white;
+}
+
+.work{
+    margin-bottom: 72px;
+}
+
+.work ul{
+    padding-left: 24px;
+    margin-left: 26px;
+    border-left: 1px solid #96A9C4;
+}
+.work ul li{
+    margin-bottom: 24px;
+}
+.work-title{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+.work-description p{
+    font-size:20px;
+    line-height: 30px;
+    max-width: 642px;
+}
+.work-description img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 8px;
+}
+
+.footer{
+    padding-top: 24px;
+    padding-bottom: 36px;
+    text-align: center;
+    background-color: #415165;
+}
+.footer .title{
+    border-bottom: 1px solid #ffffff;
+    color:white;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+.footer .title span{
+    color:white;
+}
+.footer .content{
+    color:#FFFFFF;
+    margin-bottom: 16px;
+}
+.contact img{
+    margin-left: 24px;
+}
