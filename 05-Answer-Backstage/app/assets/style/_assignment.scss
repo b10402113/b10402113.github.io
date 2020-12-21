@@ -1,0 +1,183 @@
+.assignment{
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+}
+.header{
+    padding:32px 0px;
+    justify-content: space-between;
+    h1{ 
+        font-size: map-get($font-size, xl);
+        line-height: map-get($font-line-height, xl);
+    }
+    .header-right{
+        a{
+            display: block;
+            color: #121212;
+            width: 24px;
+            height: 24px;
+        }
+        a:last-child{
+            margin-left: 26px;
+        }
+    }
+}
+.dropdown{
+    font-size: map-get($font-size, md);
+    line-height: map-get($font-line-height, md);
+    font-weight: bold;
+    color: map-get($color-group,'secondary');
+    .dropdown-toggle{
+        &:after{
+            display: none;
+        }
+    }
+    select{
+        font-size: map-get($font-size, md);
+        line-height: map-get($font-line-height, md);
+        font-weight: bold;
+        color: map-get($color-group,'secondary');
+        border: 0;
+        cursor: pointer;
+    }
+}
+
+.assignment-content{
+    padding-top: 12px;
+}
+
+.chapter-list{
+    max-width: 400px;
+    min-width: 320px;
+    margin-right: 16px;
+    span{
+        display: block;
+    }
+    .arrow-down{
+        width: 24px;
+        height: 24px;
+        margin-left: 7px;
+        color:map-get($color-group,"third");
+    }
+}
+
+.chapter-comment{
+    width: 100%;
+    min-width: 500px;
+    .comment-number{
+        text-align: right;
+        color: #707070;
+        font-size: map-get($font-size, xs);
+        line-height: map-get($font-line-height, md);;
+    }
+}
+.chapter-item-list{
+    padding-left: 0;
+    // max-width: 400px;
+    .chapter-item{
+        &:hover{
+            background-color: $dark-green;
+        }
+    }
+}
+
+.chapter-item{
+    position: relative;
+    padding: 12px;
+    border: 1px solid #cdddcd;
+    border-bottom: none;
+    &:last-child{
+        border-bottom: 1px solid #cdddcd;
+    }
+    a{
+        display: block;
+        color:#121212;
+        .chapter-item-top{
+            font-size: map-get($font-size, xs );
+            line-height: map-get($font-line-height, xs );
+            color:#121212;
+        }
+        .chapter-item-down{
+            align-items: center;
+            .title{
+                font-size: map-get($font-size, md );
+                line-height: map-get($font-line-height, md );
+                color:#121212;
+            }
+            p{
+                font-size: map-get($font-size, xs );
+                line-height: map-get($font-line-height, xs );
+
+                color:#0000009A;    
+            }
+        }
+        .points{
+            position: absolute;
+            right: 17px;
+            top: 20px;
+        }
+    }   
+}
+
+.chaper-message-list{
+    border: 1px solid #cdddcd;
+    padding: 0px 32px 7px 16px;
+    
+    .chapter-message-item{
+        padding-top:17px;
+        .message-content{
+            border-bottom: 1px solid $light-green;
+            padding-bottom: 17px;
+        }
+        .name_and_time{
+            margin-bottom: 16px;
+            p:first-child{
+                font-size: map-get($font-size, md);
+                line-height: map-get($font-line-height, md);
+            }
+            p:last-child{
+                font-size: map-get($font-size, xs);
+                line-height: map-get($font-line-height, xs);
+                color:#0000009A;
+            }
+        }
+        .text-field{
+            font-weight: normal;
+            font-size: map-get($font-size, sm);
+            line-height: map-get($font-line-height, sm);
+            p{
+                margin-bottom: 16px;
+            }
+            .tag{
+                color: #2A8356;
+                background-color: #edf4ee;
+                padding: 2px;
+            }
+            .file{
+                span{
+                    vertical-align:middle;
+                    font-size: map-get($font-size,md);
+                }
+                display: inline-block;
+                padding: 8px 16px 8px 12px;
+                background-color: $light-green;
+                border: 1px solid $dark-green;
+            }
+        }
+
+    }
+}
+
+.chapter-bottom{
+    margin-top: 16px;
+    .navigates{
+        a{
+            color:black;
+        }
+        span{
+            width: 24px;
+            height: 24px;
+            vertical-align:middle;
+        }
+    }
+}
